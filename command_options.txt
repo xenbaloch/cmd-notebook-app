@@ -1,0 +1,11 @@
+from notebook import Note, Notebook
+n = Notebook()
+n.new_note("Some Text")
+n.new_note("More Text")
+n.notes
+n.notes[0].id
+n.notes[1].id
+n.notes[0].memo
+n.search(" ")
+n.modify_memo(1, "Some New Text")
+n.notes[0].memo
